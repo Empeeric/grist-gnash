@@ -1,17 +1,18 @@
 {
   "author": "Refael Ackermann<refael@empeeric.com>",
-  "name": "mosour",
+  "name": "grist",
+  "description": "mongodb style object mutator (derived from TingoDB)",
   "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Empeeric/mosour.git"
+    "url": "git://github.com/Empeeric/grist.git"
   },
   "contributors": [
     "PushOk Software <support@pushok.com>"
   ],
-  "description": "MOngodb Style Object UpdateR (from TingoDB)",
   "keywords": [
-    "mongodb"
+    "mongodb",
+    "sift"
   ],
   "main": "lib/updater.js",
   "engines": {
@@ -20,7 +21,7 @@
   "dependencies": {
     "sift": "",
     "lodash": "",
-    "lodash-contrib": "~241.3.1"
+    "lodash-contrib": ""
   },
   "scripts": {
     "test": "mocha",
