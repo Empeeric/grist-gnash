@@ -1,6 +1,5 @@
-# Mosour
-MOngodb Style Object UpdateR
-(from TingoDB)
+# grist
+mongodb style object mutator (derived from TingoDB)
 
 Runs updates on collections, as described by MongoDB style operators
 
