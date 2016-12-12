@@ -2,7 +2,7 @@
   "author": "Refael Ackermann<me@refack.com>",
   "name": "grist-gnash",
   "description": "mongodb style object mutator (derived from TingoDB)",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "repository": "node4good/grist-gnash.git",
   "license": "MIT",
   "contributors": [
