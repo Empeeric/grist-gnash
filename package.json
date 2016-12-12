@@ -1,9 +1,10 @@
 {
-  "author": "Refael Ackermann<refael@empeeric.com>",
+  "author": "Refael Ackermann<me@refack.com>",
   "name": "grist-gnash",
   "description": "mongodb style object mutator (derived from TingoDB)",
   "version": "1.0.3",
-  "repository": "Empeeric/grist-gnash.git",
+  "repository": "node4good/grist-gnash.git",
+  "license": "MIT",
   "contributors": [
     "PushOk Software <support@pushok.com>"
   ],
@@ -13,16 +14,19 @@
   ],
   "main": "lib/updater.js",
   "engines": {
-    "node": ">= v0.8.x"
+    "node": ">= 6"
   },
   "dependencies": {
-    "sift": "",
-    "lodash": "",
-    "lodash-contrib": ""
+    "sift": "^3.2.6",
+    "lodash-contrib": "^4.1200.1"
   },
   "scripts": {
     "test": "mocha",
     "cover": "istanbul cover ./node_modules/mocha/bin/_mocha",
     "postpublish": "git push origin master --tags"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
   }
 }
